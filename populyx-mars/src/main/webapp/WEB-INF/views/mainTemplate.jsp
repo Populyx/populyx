@@ -12,7 +12,7 @@
 				</tr>
 			  </thead>
 <!-- 			  <tbody data-bind="foreach: friends()"> -->
-				<tbody ng-repeat="friend in friends" ng-hide="friend.username==iAm">	
+				<tbody ng-repeat="friend in friends" ng-hide="friend.username==iAm || friend.username==''">	
 				<tr>
 				  <td data-bind="text: {{friend.username}}">{{friend.username}}</td>
 				  <td class="trade-buttons">

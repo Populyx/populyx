@@ -11,6 +11,7 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>populyx-hera</module>
+		<module>populyx-cerbero</module>
 		<module>populyx-mars</module>
 	</modules>
 	<dependencyManagement>
@@ -18,6 +19,11 @@
 			<dependency>
 				<groupId>com.populyx</groupId>
 				<artifactId>populyx-hera</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+				<dependency>
+				<groupId>com.populyx</groupId>
+				<artifactId>populyx-cerbero</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>

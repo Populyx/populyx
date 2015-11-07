@@ -1,4 +1,4 @@
-package com.populyx.dao;
+package com.populyx.cerbero.dao;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,5 +39,9 @@ public class UserDAO {
 		query = entityManager.createQuery(cq);
 		User userLogged=query.getSingleResult();
 		return userLogged ;
+	}
+	
+	public User findById(Long id) {
+		return entityManager.find(User.class,id);
 	}
 }

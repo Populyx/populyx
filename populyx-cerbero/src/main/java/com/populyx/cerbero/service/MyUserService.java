@@ -1,4 +1,4 @@
-package com.populyx.services;
+package com.populyx.cerbero.service;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -14,7 +14,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.populyx.dao.UserDAO;
+import com.populyx.cerbero.dao.UserDAO;
 import com.populyx.entities.UserRole;
 
 @Service("MyUserService")
